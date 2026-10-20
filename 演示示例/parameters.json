@@ -1,0 +1,17 @@
+{
+  "model": "transport",
+  "transport_duration": 260,
+  "droplet_count": 28,
+  "capture_strength": 2,
+  "transport_velocity": 1.2,
+  "membrane_permeability": 1.4,
+  "nuclear_permeability": 1.2,
+  "growth_rate": 0.14,
+  "brownian": 0.9,
+  "gate_spacing": 40,
+  "entry_half_width": 4,
+  "seed": 7,
+  "engine": "coarse_grained_droplet_transport_v1",
+  "dt": 0.3,
+  "total_mass": 9000.0
+}

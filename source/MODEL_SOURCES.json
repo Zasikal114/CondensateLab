@@ -1,0 +1,24 @@
+{
+  "modules": {
+    "light_control": {
+      "author": "李鹏博",
+      "original_sha256": {
+        "condensate4.py": "d3bd9e4cc4c47ce4fe21d024e49b84f9b82361e50fde91100aed47346b6aed2a",
+        "light_off\\condensate_light.py": "ea3ab6f1943de7c4dccccfd8710b7cbae20835aaad110a3ffa36925ad47156aa",
+        "FRAP_by_time.py": "fc3a39e679f9936052205a0d4b270e374448f839375bb700f9247aa15922ff85"
+      },
+      "adaptation": "Numerical light and FRAP kernels extracted without equation changes. CH denominator guard corrected in existing solver; equations unchanged. Web scheduling, sampling and exports added."
+    },
+    "droplet_transport": {
+      "implementation": "New coarse-grained interactive transport kernel; not an equivalent discretization of the supplied CH solver.",
+      "documentation": "docs/droplet_transport.md",
+      "provenance": "Single interactive transport implementation. Retired nuclear solvers and uploaded reference videos are not loaded or distributed.",
+      "invariants": [
+        "Droplet plus soluble-pool mass conserved",
+        "Rendered density integrates to the same total",
+        "Curves integrate the same density used for images"
+      ],
+      "units": "uncalibrated model units"
+    }
+  }
+}

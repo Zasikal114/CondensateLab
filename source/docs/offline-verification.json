@@ -1,0 +1,29 @@
+{
+  "product": "CondensateLab",
+  "health": {
+    "ok": true,
+    "upstreams": {},
+    "pending": 0,
+    "retention_hours": 24
+  },
+  "page_ok": true,
+  "models": {
+    "phase": {
+      "state": "complete",
+      "gif_frames": 81,
+      "elapsed_seconds": 2.2008256999999958
+    },
+    "fluidity": {
+      "state": "complete",
+      "gif_frames": 20,
+      "elapsed_seconds": 2.3332556999998815
+    },
+    "nuclear": {
+      "state": "complete",
+      "gif_frames": 72,
+      "elapsed_seconds": 37.570315000000164
+    }
+  },
+  "offline_guard_enabled": true,
+  "external_connection_attempts": []
+}
